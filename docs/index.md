@@ -31,7 +31,7 @@ Here’s what I’ll be writing about:
 
 ## Who Am I?
 
-I’m a software leader passionate about innovation, with experience in modernizing systems, driving automation, and integrating intelligent technologies. This blog is where my personal AI learning intersects with hands-on development and professional curiosity.
+I’m a technology leader passionate about innovation, with experience in modernizing systems, driving automation, and integrating intelligent technologies. This blog is where my personal AI learning intersects with hands-on development and professional curiosity.
 
 ## Join Me on the Journey
 
