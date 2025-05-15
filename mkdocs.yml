@@ -1,30 +1,68 @@
 site_name: AI Social Journal
-site_url: https://sitename.example
-theme:
-  logo: assets/IMG_2595.png
-  name: material
-  font:
-    text: Merriweather Sans
-    code: Red Hat Mono
-  palette:
-    # Dark Mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: green
-      accent: deep purple
+site_url: https://yourdomain.com
+site_author: Dinesh Gopal
+site_description: "Making Sense of AI Togethe"
 
-    # Light Mode
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  palette:
     - scheme: default
+      primary: deep purple
+      accent: lime
+    - scheme: slate
+      primary: deep purple
+      accent: lime
       toggle:
         icon: material/weather-night
-        name: Light mode
-      primary: blue
-      accent: deep orange
+        name: Switch to dark mode
+  font:
+    text: Roboto
+    code: Fira Code
+  features:
+    - navigation.tabs
+    - navigation.top
+    - toc.integrate
+    - content.code.annotate
+    - search.highlight
+    - search.share
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Blog:
+      - RAG Chatbots: posts/rag-chatbots.md
+      - Agentic Assistants: posts/agentic-assistants.md
+
+plugins:
+  - search
+  - blogging:
+      blog_dir: posts
+      post_template: post.html
+  - rss:
+      site_url: https://yourdomain.com
+  - git-revision-date-localized
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/yourhandle
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/yourprofile
 
 markdown_extensions:
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.emoji
+  - pymdownx.tasklist:
+      custom_checkbox: true
