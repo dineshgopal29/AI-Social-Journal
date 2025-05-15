@@ -47,11 +47,9 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/yourusername
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/yourhandle
+      link: https://github.com/dineshgopal29
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/yourprofile
+      link: http://www.linkedin.com/in/dineshgopal1
 
 markdown_extensions:
   - admonition
