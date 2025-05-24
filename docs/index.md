@@ -29,15 +29,11 @@ Here’s what I’ll be writing about:
 - 🧠 **Theory into Practice**  
   Simplifying complex AI concepts and showing how to use them in real-world scenarios.
 
-## Who Am I?
-
-I’m a technology leader passionate about innovation, with experience in modernizing systems, driving automation, and integrating intelligent technologies. This blog is where my personal AI learning intersects with hands-on development and professional curiosity.
-
 ## Join Me on the Journey
 
 Whether you're new to AI, an experienced developer, or just curious about where this field is heading, I hope you find something useful, inspiring, or thought-provoking here.
 
-🛠️ Let’s learn, build, and grow — together.
+🛠️ Let’s make sense of AI — together.
 
 ---
 
