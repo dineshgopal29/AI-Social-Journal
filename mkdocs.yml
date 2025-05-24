@@ -34,8 +34,7 @@ nav:
   - Home: index.md
   - About: about.md
   - Blog:
-      - RAG to Riches – Accessing LLMs: posts/rag-chatbots.md
-      - Agentic Assistants: posts/agentic-assistants.md
+      - RAG to Riches – Accessing LLMs: posts/rag-access-llms.md
 
 plugins:
   - search
