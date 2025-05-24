@@ -118,7 +118,7 @@ export AWS_DEFAULT_REGION=your-region  # e.g., us-east-1
 ```
 
 <div style="text-align: center;">
-  <img src="/images/rag1.png" alt="RAG High-Level Architecture" width="600"/>
+  <img src="/images/rag.png" alt="RAG High-Level Architecture" width="600"/>
   <p style="font-style: italic;">Figure 1: High-level architecture of accessing FM using AWS Bedrock.</p>
 </div>
 
