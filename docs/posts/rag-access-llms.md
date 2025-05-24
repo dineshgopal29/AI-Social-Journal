@@ -116,12 +116,9 @@ export AWS_ACCESS_KEY_ID=your-access-key-id
 export AWS_SECRET_ACCESS_KEY=your-secret-access-key
 export AWS_DEFAULT_REGION=your-region  # e.g., us-east-1
 ```
+*Figure 1: High-level architecture of accessing FM using AWS Bedrock.*
 
-<div style="text-align: center;">
-  <img src="/images/rag.png" alt="RAG High-Level Architecture" width="600"/>
-  <p style="font-style: italic;">Figure 1: High-level architecture of accessing FM using AWS Bedrock.</p>
-</div>
-
+![RAG Architecture](/images/rag.png)
 
 ### 🧾 Code Block
 
