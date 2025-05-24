@@ -118,7 +118,7 @@ export AWS_DEFAULT_REGION=your-region  # e.g., us-east-1
 ```
 
 <div style="text-align: center;">
-  <img src="images/rag1.png" alt="RAG High-Level Architecture" width="300"/>
+  <img src="/images/rag1.png" alt="RAG High-Level Architecture" width="600"/>
   <p style="font-style: italic;">Figure 1: High-level architecture of accessing FM using AWS Bedrock.</p>
 </div>
 
@@ -129,7 +129,7 @@ export AWS_DEFAULT_REGION=your-region  # e.g., us-east-1
 
 ```python
  """
-    Calls the AWS Bedrock Claude Sonnet 3.7 model with the given prompt.
+    Calls the AWS Bedrock Claude Sonnet 4 model with the given prompt.
     Optionally accepts AWS access key and secret.
     Returns the model's response as a string.
     """
@@ -148,7 +148,7 @@ bedrock = boto3.client(
 prompt = "What is Retrieval-Augmented Generation (RAG) in AI?"
 
 # Invoke the model
-model_id = "us.anthropic.claude-3-7-sonnet-20250219-v1:0"
+model_id = "us.anthropic.claude-sonnet-4-20250514-v1:0"
     native_request = {
         "anthropic_version": "bedrock-2023-05-31",
         "max_tokens": 1000,
@@ -172,12 +172,12 @@ print(response_text)
 
 ```python
 """
-    Calls the AWS Bedrock Claude Sonnet 3.7 model using LangChain.
+    Calls the AWS Bedrock Claude Sonnet 4 model using LangChain.
     Optionally accepts AWS access key and secret.
     Returns the model's response as a string.
     """
 try:
-        model_id = "us.anthropic.claude-3-7-sonnet-20250219-v1:0"
+        model_id = "us.anthropic.claude-sonnet-4-20250514-v1:0"
         chat = ChatBedrock(
             model_id=model_id,
             region_name=region,
@@ -191,7 +191,7 @@ try:
         return None
 ```
 
-You can access the full code on GitHub [here](https://github.com/yourusername/your-repo-name/blob/main/path/to/code.py).
+You can access the full code on GitHub [here](https://github.com/dineshgopal29/rag-to-riches/blob/5a0071aaf5b8d9f0f1f97e873f319cb8824a9877/access_llm.py).
 
 ### 📸 Sample Output
 
