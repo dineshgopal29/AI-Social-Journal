@@ -1,7 +1,7 @@
 site_name: AI Social Journal
 site_url: https://yourdomain.com
 site_author: Dinesh Gopal
-site_description: "Making Sense of AI Togethe"
+site_description: "Making Sense of AI Together"
 
 theme:
   name: material
@@ -9,7 +9,7 @@ theme:
   favicon: assets/favicon.ico
   palette:
     - scheme: default
-      primary: deep purple
+      primary: indigo
       accent: lime
     - scheme: slate
       primary: deep purple
@@ -27,12 +27,14 @@ theme:
     - content.code.annotate
     - search.highlight
     - search.share
+    - navigation.footer
+    - content.code.copy
 
 nav:
   - Home: index.md
   - About: about.md
   - Blog:
-      - RAG Chatbots: posts/rag-chatbots.md
+      - RAG to Riches – Accessing LLMs: posts/rag-chatbots.md
       - Agentic Assistants: posts/agentic-assistants.md
 
 plugins:
@@ -53,7 +55,8 @@ extra:
 
 markdown_extensions:
   - admonition
-  - codehilite
+  - codehilite:
+      guess_lang: false
   - footnotes
   - toc:
       permalink: true
@@ -62,5 +65,19 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.emoji
+  - attr_list
+  - pymdownx.snippets
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tabbed:
+      alternate_style: true
+
+copyright: Copyright &copy; 2025 Dinesh Gopal
+
