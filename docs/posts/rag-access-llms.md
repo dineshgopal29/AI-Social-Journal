@@ -118,7 +118,7 @@ export AWS_DEFAULT_REGION=your-region  # e.g., us-east-1
 ```
 *Figure 1: High-level architecture of accessing FM using AWS Bedrock.*
 
-![RAG Architecture](/images/rag1.png)
+![RAG Architecture](./images/rag1.png)
 
 ### 🧾 Code Block
 
