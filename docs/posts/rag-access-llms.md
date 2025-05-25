@@ -118,7 +118,7 @@ export AWS_DEFAULT_REGION=your-region  # e.g., us-east-1
 ```
 *Figure 1: High-level architecture of accessing FM using AWS Bedrock.*
 
-![RAG Architecture](images/rag1.png)
+![RAG Architecture](/images/rag1.png)
 
 ### 🧾 Code Block
 
@@ -190,7 +190,7 @@ try:
 
 You can access the full code on GitHub [here](https://github.com/dineshgopal29/rag-to-riches/blob/5a0071aaf5b8d9f0f1f97e873f319cb8824a9877/access_llm.py).
 
-### 📸 Sample Output
+### 📸 Output
 
 ```
 Prompt:
