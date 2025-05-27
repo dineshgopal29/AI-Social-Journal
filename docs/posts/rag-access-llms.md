@@ -116,9 +116,10 @@ export AWS_ACCESS_KEY_ID=your-access-key-id
 export AWS_SECRET_ACCESS_KEY=your-secret-access-key
 export AWS_DEFAULT_REGION=your-region  # e.g., us-east-1
 ```
-*Figure 1: High-level architecture of accessing FM using AWS Bedrock.*
-
-![RAG Architecture](/images/rag1.png)
+<figure markdown="span">
+  ![RAG Architecture](../images/rag1.png){align=left }
+  <figcaption>Figure 1: High-level architecture of accessing FM using AWS Bedrock.</figcaption>
+</figure>
 
 ### 🧾 Code Block
 
@@ -126,7 +127,8 @@ export AWS_DEFAULT_REGION=your-region  # e.g., us-east-1
 
 ```python
  """
-    Calls the AWS Bedrock Claude Sonnet 4 model with the given prompt.
+    Calls the AWS Bedrock Claude Sonnet 4 model 
+    with the given prompt.
     Optionally accepts AWS access key and secret.
     Returns the model's response as a string.
     """
@@ -157,10 +159,11 @@ model_id = "us.anthropic.claude-sonnet-4-20250514-v1:0"
             }
         ],
     }
-    request = json.dumps(native_request)
-    response = bedrock.invoke_model(modelId=model_id, body=request)
-    model_response = json.loads(response["body"].read())
-    response_text = model_response["content"][0]["text"]
+
+request = json.dumps(native_request)
+response = bedrock.invoke_model(modelId=model_id, body=request)
+model_response = json.loads(response["body"].read())
+response_text = model_response["content"][0]["text"]
 
 # Print the response
 print(response_text)
