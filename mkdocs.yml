@@ -35,6 +35,7 @@ nav:
   - About: about.md
   - Blog:
       - RAG to Riches – Accessing LLMs: posts/rag-access-llms.md
+      - RAG to Riches – Data Setup: posts/rag-data-setup.md
 
 plugins:
   - search
