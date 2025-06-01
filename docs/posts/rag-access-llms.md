@@ -232,6 +232,11 @@ Accessing an LLM is the **first foundational step** in building a RAG pipeline. 
 
 In **Part 2**, we’ll cover how to **prepare your data and generate embeddings** — turning your documents into searchable vectors that LLMs can understand and reason about.
 
+---
+
+**Tags:**  
+#AI #MachineLearning #LLMs #RAG #Bedrock #Chatbots #Python #TechBlog
+
 > Stay tuned and follow along as we go from RAG… to riches.
 
 *Posted on May 21, 2025*

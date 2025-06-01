@@ -285,6 +285,13 @@ In **Part 3**, we’ll explore **retrieval and generation** — using your vecto
 
 > Subscribe or follow to continue your RAG journey 🚀
 
+---
+
+## 🔖 Tags
+
+`#RAG` &nbsp;&nbsp; `#LLMs` &nbsp;&nbsp; `#LangChain` &nbsp;&nbsp; `#GenerativeAI`  
+`#AmazonBedrock` &nbsp;&nbsp; `#PromptEngineering` &nbsp;&nbsp; `#AI` &nbsp;&nbsp; `#MachineLearning` &nbsp;&nbsp; `#DataPipeline`
+
 *Published: May 31, 2025*
 
 ---
