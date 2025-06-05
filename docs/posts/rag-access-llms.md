@@ -235,7 +235,8 @@ In **Part 2**, we’ll cover how to **prepare your data and generate embeddings*
 ---
 
 **Tags:**  
-#AI #MachineLearning #LLMs #RAG #Bedrock #Chatbots #Python #TechBlog
+
+`#AI` &nbsp;&nbsp; `#LLMs` &nbsp;&nbsp; `#LangChain` &nbsp;&nbsp; `#GenerativeAI` &nbsp;&nbsp; `#AmazonBedrock` &nbsp;&nbsp; `#RAG` &nbsp;&nbsp; `#Python` 
 
 > Stay tuned and follow along as we go from RAG… to riches.
 
